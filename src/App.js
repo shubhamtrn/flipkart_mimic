@@ -1,24 +1,68 @@
-
-import './App.css';
-import Navbar from './components/Navbar';
-import ProductDiv from './components/ProductDiv';
-import ProductSlider from './components/ProductSlider';
-import Electronics from './components/Electronics';
-import KitchensEssentials from './components/KitchensEssentials';
-import BeautyToys from './components/BeautyToys';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Home from "./components/Home";
+import FlipkartSeller from "./components/FlipkartSeller";
+import Cart from "./components/Cart";
+import TopOffers from "./components/productdiv/TopOffers";
+import GroceryPage from "./components/productdiv/GroceryPage";
+import MobilePage from "./components/productdiv/MobilePage";
+import FashionPage from "./components/productdiv/FashionPage";
+import ElectronicsPage from "./components/productdiv/ElectronicsPage";
+import HomePage from "./components/productdiv/HomePage";
+import AppliancesPage from "./components/productdiv/AppliancesPage";
+import TravelPage from "./components/productdiv/TravelPage";
+import BeautyToyPage from "./components/productdiv/BeautyToyPage";
 
 function App() {
   return (
-   <>
-   <div className="mainbackground">
-   <Navbar/>
-   <ProductDiv/>
-   <ProductSlider/>
-   <Electronics/>
-   <KitchensEssentials/>
-   <BeautyToys/>
-   </div>
-   </>
+    <>
+
+      <Router>
+        <Navbar />
+        <div className="mainbackground">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/sellersite">
+            <FlipkartSeller />
+          </Route>
+          <Route path="/cart">
+            <Cart />
+          </Route>
+          <Route exact path="/top_offer">
+            <TopOffers />
+          </Route>
+          <Route exact path="/grocery">
+            <GroceryPage />
+          </Route>
+          <Route exact path="/mobile">
+            <MobilePage />
+          </Route>
+          <Route exact path="/fashion">
+            <FashionPage />
+          </Route>
+          <Route exact path="/electronic">
+            <ElectronicsPage />
+          </Route>
+          <Route exact path="/homepage">
+            <HomePage />
+          </Route>
+          <Route exact path="/appliance">
+            <AppliancesPage />
+          </Route>
+          <Route exact path="/travel">
+            <TravelPage/>
+          </Route>
+          <Route exact path="/beauty">
+            <BeautyToyPage />
+          </Route>
+        </Switch>
+        </div>
+      </Router>
+    </>
   );
 }
 

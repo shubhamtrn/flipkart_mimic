@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div>
       <nav className="nav">
-        <img src="/images/flipkart_logo.png" alt="flipkart" id="logo" />
+        <div className="space"></div>
+        <div>
+        <Link to="/"><img src="/images/flipkart_logo.png" alt="flipkart" id="logo" /></Link></div>
         <input
           type="text"
           id="search"
@@ -12,17 +15,17 @@ function Navbar() {
         />
         <input type="button" value="Search" id="searchBtn" />
         <ul>
-          <li>Become a seller</li>
+        <Link to="/sellersite" style={{textDecoration:"None"}}><li>Become a seller</li></Link>
 
           <img
             src="/images/cart.png"
             alt="cart"
-            style={{ width: "25px", height: "25px", margin: "12px 0 12px 30px" }}
+            style={{ width: "25px", height: "25px", margin: "15px 0 12px 30px" }}
           />
 
-          <li style={
-            {margin:"12px 0px"}
-          }> Cart</li>
+          <Link to="/cart" style={{textDecoration:"None"}}><li style={
+            {margin:"15px 0px"}
+          }> Cart</li></Link>
         </ul>
       </nav>
     </div>
