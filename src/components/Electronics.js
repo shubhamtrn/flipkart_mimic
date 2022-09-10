@@ -44,8 +44,8 @@ function Electronics() {
         </div>
 
         <div className="item">
-            <img className='item_image' src="/images/elect6.webp" alt="" style={{width:"140px"}}/>
-            <h3 className='item_details' style={{marginTop:"15px"}}>Sony OLED </h3>
+            <img className='item_image' src="/images/elect6.webp" alt="" />
+            <h3 className='item_details' >Sony OLED </h3>
             <p className='price'>From ₹85,000</p>
             <p className="details">High Quality HD TV</p>
         </div>
