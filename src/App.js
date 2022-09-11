@@ -22,6 +22,7 @@ function App() {
 
       <Router>
         <Navbar />
+        <br /><br /><br />
         <div className="mainbackground">
         <Switch>
           <Route exact path="/">
