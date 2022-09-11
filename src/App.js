@@ -14,6 +14,7 @@ import HomePage from "./components/productdiv/HomePage";
 import AppliancesPage from "./components/productdiv/AppliancesPage";
 import TravelPage from "./components/productdiv/TravelPage";
 import BeautyToyPage from "./components/productdiv/BeautyToyPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           </Route>
         </Switch>
         </div>
+        <Footer/>
       </Router>
     </>
   );

@@ -14,6 +14,8 @@ function BeautyToys() {
             <p className='price'>Up to 70% off</p>
             <p className="details">Shop Now!</p>
         </div>
+        
+        
 
         <div className="item">
             <img className='item_image' src="/images/toy2.webp" alt="" />

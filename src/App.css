@@ -133,3 +133,65 @@ color: rgb(29, 148, 29);
 
 }
 
+/* CSS for footer */
+.description{
+  background-color: white;
+  box-shadow:1px 1px 10px 0px #888888;
+  margin-top: 10px;
+}
+.bottomfootabove{
+  background-color: #172337;
+  height: 40px;
+}
+
+.bottomfoot{
+  display: flex;
+  background-color: #172337;
+  justify-content: space-around;
+}
+
+.bottomfoot li{
+  color: white;
+  list-style: none;
+  font-size: small;
+  margin: 5px 0px;
+
+}
+
+.mailUs{
+  display: flex;
+  justify-content: space-between;
+}
+.vl{
+  border-left: 1px solid gray;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.mainfoot{
+  background-color: #172337;
+}
+
+.lastfoot{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lastfoot p{
+  color: white;
+  font-size: 14px;
+}
+#footimg{
+  width: 400px;
+  height: 23px;
+}
+.lastfoot div{
+  margin: 20px 0px;
+  display: flex;
+
+}
+
+.lastfoot div img{
+  width: 22px;
+  height: 22px;
+}
