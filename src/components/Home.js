@@ -4,6 +4,7 @@ import ProductSlider from './ProductSlider'
 import Electronics from './Electronics'
 import KitchensEssentials from './KitchensEssentials'
 import BeautyToys from './BeautyToys'
+import FooterAbove from './FooterAbove'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
    <Electronics/>
    <KitchensEssentials/>
    <BeautyToys/>
+   <FooterAbove/>
     </div>
   )
 }

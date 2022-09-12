@@ -9,12 +9,18 @@ import TopOffers from "./components/productdiv/TopOffers";
 import GroceryPage from "./components/productdiv/GroceryPage";
 import MobilePage from "./components/productdiv/MobilePage";
 import FashionPage from "./components/productdiv/FashionPage";
-import ElectronicsPage from "./components/productdiv/ElectronicsPage";
+// import ElectronicsPage from "./components/productdiv/ElectronicsPage";
 import HomePage from "./components/productdiv/HomePage";
 import AppliancesPage from "./components/productdiv/AppliancesPage";
 import TravelPage from "./components/productdiv/TravelPage";
 import BeautyToyPage from "./components/productdiv/BeautyToyPage";
 import Footer from "./components/Footer";
+import Laptop12thGen from "./components/Electronics/Laptop12thGen";
+import Monitor from "./components/Electronics/Monitor";
+import AsusLaptop from "./components/Electronics/AsusLaptop";
+import DellLaptop from "./components/Electronics/DellLaptop";
+import SonyTV from "./components/Electronics/SonyTV";
+import Printer from "./components/Electronics/Printer";
 
 function App() {
   return (
@@ -46,9 +52,9 @@ function App() {
           <Route exact path="/fashion">
             <FashionPage />
           </Route>
-          <Route exact path="/electronic">
-            <ElectronicsPage />
-          </Route>
+            {/* <Route exact path="/electronic">
+              <ElectronicsPage />
+            </Route> */}
           <Route exact path="/homepage">
             <HomePage />
           </Route>
@@ -61,6 +67,27 @@ function App() {
           <Route exact path="/beauty">
             <BeautyToyPage />
           </Route>
+          <Route exact path="/laptops">
+              <Laptop12thGen/>
+            </Route>
+            <Route exact path="/monitors">
+              <Monitor/>
+            </Route>
+            <Route exact path="/asuslaptop">
+              <AsusLaptop/>
+            </Route>
+            <Route exact path="/delllaptop">
+              <DellLaptop/>
+            </Route>
+            <Route exact path="/sonytv">
+              <SonyTV/>
+            </Route>
+            <Route exact path="/printer">
+              <Printer/>
+            </Route>
+            
+            
+          
         </Switch>
         </div>
         <Footer/>

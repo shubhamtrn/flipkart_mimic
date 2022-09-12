@@ -1,11 +1,11 @@
 import React from 'react'
 
-function BeautyToyPage() {
+function AsusLaptop() {
   return (
     <>
     <div className="main_area">
       <div className="left">
-        <h3>Filters</h3>
+      <h3>Filters</h3>
         <br />
         <hr />
         <br />
@@ -41,12 +41,12 @@ function BeautyToyPage() {
       <div className="right1">
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy1.webp" alt="" />
+            <img src="/images/laptopimage/laptop1.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
               HP Pavilion Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home)
-              15-EG2009TU Thin and Light Laptop
+              15-EG2009TU Thin and Light Laptop{" "}
             </h3>
             <ul>
               <li>Intel Core i5 Processor(12th Gen)</li>
@@ -72,12 +72,12 @@ function BeautyToyPage() {
 
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy2.webp" alt="" />
+            <img src="/images/laptopimage/laptop2.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
               HP Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-
-              fq5010TU Thin and Light Laptop{" "}
+              fq5010TU Thin and Light Laptop
             </h3>
             <ul>
               <li>Intel Core i5 Processor(12th Gen)</li>
@@ -103,7 +103,7 @@ function BeautyToyPage() {
 
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy3.webp" alt="" />
+            <img src="/images/laptopimage/laptop3.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
@@ -134,7 +134,7 @@ function BeautyToyPage() {
 
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy4.webp" alt="" />
+            <img src="/images/laptopimage/laptop4.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
@@ -165,7 +165,7 @@ function BeautyToyPage() {
 
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy5.webp" alt="" />
+            <img src="/images/laptopimage/laptop5.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
@@ -196,7 +196,7 @@ function BeautyToyPage() {
 
         <div className="right">
           <div className="item_img">
-            <img src="/images/toy6.webp" alt="" />
+            <img src="/images/laptopimage/laptop6.png" alt="" />
           </div>
           <div className="item_desc">
             <h3 style={{ fontWeight: "500" }}>
@@ -231,4 +231,4 @@ function BeautyToyPage() {
   )
 }
 
-export default BeautyToyPage
+export default AsusLaptop

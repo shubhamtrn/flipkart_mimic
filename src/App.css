@@ -106,6 +106,7 @@
   margin: 20px 0px;  
   box-shadow:1px 1px 10px 0px #888888
 }
+
 .titlebar{
   margin: 20px 25px;
   font-weight: 500;
@@ -196,4 +197,58 @@ color: rgb(29, 148, 29);
 .lastfoot div img{
   width: 22px;
   height: 22px;
+}
+
+/* Second Layer of Electronics CSS */
+.main_area{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.left{
+  width: 25%;
+  height: 100%;
+  margin: 5px 5px ;
+  
+  box-shadow:1px 1px 10px 0px #888888
+
+}
+.left h3{
+  margin: 20px;
+}
+.left p{
+  margin: 0px 20px;
+  font-weight: 500;
+  font-size: small;
+}
+.right1{
+  margin: 5px 5px ;
+  box-shadow:1px 1px 10px 0px #888888
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.right div{
+  margin: 5px 15px;
+}
+
+.item_img img{
+  width: 200px;
+  height: 150px;
+  margin: 20px 50px;
+  object-fit: contain;
+}
+
+.item_price{
+  margin: 20px;
+}
+
+.item_price p{
+  color: green;
+}
+.item_price h4{
+  color: green;
 }

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-function HomePage() {
+function Monitor() {
   return (
     <>
       <div className="main_area">
@@ -41,7 +41,7 @@ function HomePage() {
         <div className="right1">
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch1.webp" alt="" />
+              <img src="/images/monitors/monitor1.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -72,7 +72,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch2.webp" alt="" />
+              <img src="/images/monitors/monitor2.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -103,7 +103,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch3.webp" alt="" />
+              <img src="/images/monitors/monitor3.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -134,7 +134,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch4.webp" alt="" />
+              <img src="/images/monitors/monitor4.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -165,7 +165,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch5.webp" alt="" />
+              <img src="/images/monitors/monitor5.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -196,7 +196,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch6.webp" alt="" />
+              <img src="/images/monitors/monitor6.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -228,7 +228,7 @@ function HomePage() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default HomePage
+export default Monitor;

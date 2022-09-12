@@ -17,7 +17,7 @@ function ProductDiv() {
       <Link to='/fashion' style={{textDecoration:"None",color:"black"}}><div className="items">
         <img src="/images/fashions.webp" alt="top_offers" />
         <h4>Fashion</h4></div></Link>
-      <Link to='/electronic' style={{textDecoration:"None",color:"black"}}><div className="items">
+      <Link to='/laptops' style={{textDecoration:"None",color:"black"}}><div className="items">
         <img src="/images/electronics.webp" alt="top_offers" />
         <h4>Electronics</h4></div></Link>
       <Link to='/homepage' style={{textDecoration:"None",color:"black"}}><div className="items">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomePage() {
+function Printer() {
   return (
     <>
       <div className="main_area">
@@ -41,7 +41,7 @@ function HomePage() {
         <div className="right1">
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch1.webp" alt="" />
+              <img src="/images/printer/printer1.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -72,7 +72,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch2.webp" alt="" />
+              <img src="/images/printer/printer2.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -103,7 +103,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch3.webp" alt="" />
+              <img src="/images/printer/printer3.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -134,7 +134,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch4.webp" alt="" />
+              <img src="/images/printer/printer4.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -165,7 +165,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch5.webp" alt="" />
+              <img src="/images/printer/printer5.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -196,7 +196,7 @@ function HomePage() {
 
           <div className="right">
             <div className="item_img">
-              <img src="/images/kitch6.webp" alt="" />
+              <img src="/images/printer/printer6.png" alt="" />
             </div>
             <div className="item_desc">
               <h3 style={{ fontWeight: "500" }}>
@@ -231,4 +231,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default Printer
